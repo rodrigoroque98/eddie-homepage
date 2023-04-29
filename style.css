@@ -32,6 +32,10 @@ html{
 
    /****************SECCION INTRO*********/
 
+   main{
+    height: 5000px;
+   
+   }
    .intro-section{
        display: flex;
        flex-direction: column;
@@ -217,11 +221,239 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 520px;
+    height: 2230px;
 }
 
+.ourproducts-section h2{
+    font-size: 2.4rem;
+    color: #333333;
+    width: 267px;
+    height:100px;
+    font-weight: 500;
+    font-family: poppins, sans serif;
+}
+
+.ourproducts-section .product-container .product p{
+    color: #828282;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.ourproducts-section .product-container .product h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: poppins , sans serif;
+    height: 50px;
+
+}
 
 .ourproducts-section .product-container .product img{
     width: 420px;
     height: 450px;
     border-radius: 20px;
+}
+.ourproducts-section .product-container span{
+    color: #2D9CDB;
+    font-size: 2rem;
+}
+
+/****************SECCION MY-TEAM*********/
+
+.ourteam-section{
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: 600px;
+    align-items: center;
+}
+
+.ourteam-section .intro-team{
+width: 500px;
+}
+.ourteam-section .intro-team h4{
+    color: #EB5757;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.ourteam-section .intro-team h2{
+    font-size: 3.6rem;
+    font-weight: 500;
+    color: 333333;
+
+}
+.ourteam-section .intro-team p{
+    color: #4F4F4F;
+    font-size: 1.6rem;
+}
+.ourteam-section .photos-container{
+    width: 450px;
+    height: 380px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 180px 180px;
+}
+
+.ourteam-section .photos-container .img1{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+grid-column-start: 1;
+grid-row-start: 1;
+}
+.ourteam-section .photos-container .img2{
+    width: 170px;
+    height: 170px;
+grid-column-start: 2;
+grid-row-start: 1;
+}
+.ourteam-section .photos-container .img3{
+    width: 180px;
+    height: 180px;
+grid-column-start: 2;
+grid-row-start: 2;
+}
+.ourteam-section .photos-container img{
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+}
+.ourteam-section .Decorate-container{
+    display:grid;
+    width: 500px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 205px 250px;
+}
+
+
+.ourteam-section .Decorate-container h2{
+    width: 500px;
+    height:140px;
+    font-size: 2.4rem;
+    color: #333333;
+    font-weight: 500;
+    grid-column: 1;
+    
+}
+.ourteam-section .Decorate-container img{
+    width: 150px;
+    height: 150px;
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 30px;
+
+}
+.ourteam-section .Decorate-container .decorator-info{
+grid-column: 2;
+grid-row: 2;
+}
+
+.ourteam-section .Decorate-container .decorator-info h3{
+    height: 40px;
+    font-size: 2rem;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+.ourteam-section .Decorate-container .decorator-info p{
+    font-size: 2rem;
+    font-family: 'poppins';
+    font-weight: 500;
+    color: #828282;
+}
+footer{
+    color: white;
+height: 700px;
+width: 100%;
+
+    background-color: #100E1D;
+}
+footer .list-container{
+    padding-top: 40px;
+    padding-left: 40px;
+
+}
+footer .list-container .footer-list{
+    list-style: none;
+}
+
+footer .list-container .footer-list li {
+    font-size: 1.8rem;
+    padding-bottom: 15px;
+}
+
+footer .Socialmedia-container{
+    padding-left: 40px;
+    padding-bottom:40px ;
+}
+footer .Socialmedia-container h4{
+    font-size: 3.6rem;
+}
+footer .Socialmedia-container .footer-icon-linkedin{
+    background-image: url(./assets/linkedin.svg);
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+footer .Socialmedia-container .footer-icon-instagram{
+    background-image: url(./assets/instagram.svg);
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+footer .Socialmedia-container .footer-icon-linkedin{
+    background-image: url(./assets/twitter.svg);
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+footer .form-container{
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+
+
+}
+footer .form-container form{
+    display: flex;
+    flex-direction: column;
+    color: #BDBDBD;
+    position: relative
+   /* justify-content: center;
+    */}
+
+footer .form-container form input{
+height: 50px;
+width: 360px;
+border-radius: 10px;
+color: #BDBDBD;
+font-size:2rem ;
+padding-left: 20px;
+}
+footer .form-container form label{
+font-weight: 500;
+font-family: 'poppins';
+font-size: 1.0rem;
+color: #828282;
+
+}
+
+footer .form-container form .button-container{
+    display: inline-block;
+    position: absolute;
+    top: 37px ;
+    right: 109px;
+}
+footer .form-container form button{
+    height: 50px;
+    width:80px ;
+    position: relative;
+    top: -20px;
+    right: -110px;
+    border: none;
+    border-radius: 10px;
+    color: #F2F2F2;
+    background-color: #2D9CDB ;
+    font-family:'poppins';
+    font-weight:500;
+    font-size: 2rem;
 }
